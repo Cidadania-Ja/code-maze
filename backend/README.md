@@ -1,6 +1,6 @@
-# Frontend
+# Backend
 
-Este diretório contém o projeto frontend construído com **[Next.js](https://nextjs.org/)**, utilizando **[React Query](https://tanstack.com/query/latest)** para gerenciamento de estado e **[TailwindCSS](https://tailwindcss.com/)** para estilização.
+Este diretório contém o projeto backend construído com **[Express.js](https://expressjs.com/)**, projetado para lidar com a lógica do servidor e fornecer APIs REST para o frontend.
 
 ## Pré-requisitos
 
