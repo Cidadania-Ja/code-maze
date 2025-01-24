@@ -1,5 +1,9 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { AxiosError, AxiosResponse, HttpStatusCode } from "axios";
+import {
+  dispatchErrorToastMessage,
+  dispatchSuccessToastMessage,
+} from "../configuration/toast.configuration";
 import { Post } from "../entities/post.entity";
 import { CacheMillisecondExpirations } from "../enums/cache-expiration.enum";
 import { QueryTypes } from "../enums/react-query.enum";
@@ -49,10 +53,10 @@ export function useDeleteProductPost() {
         return oldData?.filter((post) => post.id !== variables);
       });
 
-      // dispatchSuccessToastMessage("Post excluído com sucesso!");
+      dispatchSuccessToastMessage("Post excluído com sucesso!");
     },
     onError: (err: AxiosError) => {
-      // dispatchErrorToastMessage("Erro ao tentar excluir a post!");
+      dispatchErrorToastMessage("Erro ao tentar excluir a post!");
       console.error(err.message);
     },
   });

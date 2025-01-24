@@ -50,7 +50,9 @@ export default function Posts() {
   }
 
   function onUpdateClick(state: { postId: number; postName: string }): void {
-    router.push(AppRoutes.CreatePost);
+    router.push(
+      `${AppRoutes.CreatePost}?postId=${state.postId}&postName=${state.postName}`
+    );
   }
 
   function onDeleteClick(postId: number): void {

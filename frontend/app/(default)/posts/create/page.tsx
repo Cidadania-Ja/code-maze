@@ -1,18 +1,24 @@
 "use client";
 
+import { PrimaryButton } from "@/components/buttons/primary";
+import { TextInput } from "@/components/form/inputs/text";
+import { Header } from "@/components/header";
+import {
+  dispatchErrorToastMessage,
+  dispatchSuccessToastMessage,
+} from "@/lib/configuration/toast.configuration";
 import { Post } from "@/lib/entities/post.entity";
 import { AppRoutes } from "@/lib/enums/app-route.enum";
+import { FieldNames } from "@/lib/enums/field-name.enum";
 import { QueryTypes } from "@/lib/enums/react-query.enum";
 import { useCreateOrUpdateProductPost } from "@/lib/queries/post.query";
 import { QueryClient, useQueryClient } from "@tanstack/react-query";
-import { CreatePostYupFormSchema } from "./schema.yup";
-import { CreatePostFormData } from "./types";
-import { PrimaryButton } from "@/components/buttons/primary";
-import { Header } from "@/components/header";
-import { FieldNames } from "@/lib/enums/field-name.enum";
-import { TextInput } from "@/components/form/inputs/text";
 import { FormikProps, useFormik } from "formik";
 import { useRouter } from "next/navigation";
+import { CreatePostYupFormSchema } from "./schema.yup";
+import { CreatePostFormData } from "./types";
+
+import { useSearchParams } from "next/navigation";
 
 export default function CreatePostPage() {
   const { mutateAsync: createOrUpdatePost } = useCreateOrUpdateProductPost();
@@ -20,8 +26,12 @@ export default function CreatePostPage() {
 
   const router = useRouter();
 
-  const postId: number | undefined = undefined; // location.state?.postId; // TODO: Fix this
-  const postName: string | undefined = undefined; //location.state?.postName; // TODO: Fix this
+  const searchParams = useSearchParams();
+  const postId: number | undefined = searchParams.get("postId")
+    ? Number(searchParams.get("postId"))
+    : undefined;
+  const postName: string | undefined =
+    searchParams.get("postName") ?? undefined;
 
   const initialValues: CreatePostFormData = {
     [FieldNames.Title]: postName ?? "",
@@ -57,16 +67,16 @@ export default function CreatePostPage() {
             });
           }
 
-          // dispatchSuccessToastMessage(
-          //   `Post ${postId ? "atualizado" : "criado"} com sucesso!`
-          // );
+          dispatchSuccessToastMessage(
+            `Post ${postId ? "atualizado" : "criado"} com sucesso!`
+          );
 
           router.push(AppRoutes.Posts);
         },
         onError: (err: any, { postId }) => {
-          // dispatchErrorToastMessage(
-          //   `Erro ao tentar ${postId ? "atualizar" : "criar"} a post!`
-          // );
+          dispatchErrorToastMessage(
+            `Erro ao tentar ${postId ? "atualizar" : "criar"} a post!`
+          );
           console.error(err.message);
         },
       }

@@ -9,6 +9,8 @@ import {
   useContext,
   useState,
 } from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 interface ContextProps {
   sidebarOpen: boolean;
@@ -31,6 +33,8 @@ export default function AppProvider({
       <QueryClientProvider client={ReactQueryClient}>
         {children}
       </QueryClientProvider>
+
+      <ToastContainer hideProgressBar closeButton={false} />
     </AppContext.Provider>
   );
 }
