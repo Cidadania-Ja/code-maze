@@ -1,1 +1,1 @@
-# Ailu - Code Maze
+# Code Maze
