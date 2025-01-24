@@ -20,22 +20,22 @@ Uma collection do **Postman** está disponível para facilitar a interação com
 
 Você deve completar as seguintes tarefas:
 
-- [ ] **Organizar o projeto**:
+[ ] **Organizar o projeto**:
 
-  - Refatore o código, garantindo que esteja limpo, bem estruturado e de fácil manutenção.
-  - Aplique boas práticas de desenvolvimento e padrões de código.
+- Refatore o código, garantindo que esteja limpo, bem estruturado e de fácil manutenção.
+- Aplique boas práticas de desenvolvimento e padrões de código.
 
-- [ ] **Corrigir bugs**:
+- [ ] - **Corrigir bugs**:
 
   - Identifique e corrija eventuais problemas existentes no backend ou frontend.
 
-- [ ] **Implementar funcionalidade de notificações**:
+- [ ] - **Implementar funcionalidade de notificações**:
 
   - Implemente uma funcionalidade de envio de notificações em tempo real.
   - O envio deve ser realizado via endpoint de API.
   - A notificação deve ser exibida instantaneamente no dropdown do ícone no **frontend**.
 
-- [ ] **Adicionar um novo campo no envio de postagens**:
+- [ ] - **Adicionar um novo campo no envio de postagens**:
 
   - Adicione o campo `body` ao envio de informações do post e ajuste também a exibição em tela.
 
@@ -47,5 +47,11 @@ Você deve completar as seguintes tarefas:
 - As novas funcionalidades foram feitas e estão funcionando conforme descrito.
 - Bugs encontrados foram resolvidos adequadamente.
 - Soluções criativas para os problemas foram apresentadas.
+
+**Submissão do projeto**
+
+Faça um fork do repositório do projeto. Desenvolva sua solução no seu repositório e submeta um Pull Request (PR) para o repositório original com as suas alterações.
+
+---
 
 Boa sorte e divirta-se no desafio! 🚀
