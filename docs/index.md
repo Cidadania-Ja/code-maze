@@ -22,8 +22,8 @@ Você deve completar as seguintes tarefas:
 
 - [ ] **Organizar o projeto**:
 
-- Refatore o código, garantindo que esteja limpo, bem estruturado e de fácil manutenção.
-- Aplique boas práticas de desenvolvimento e padrões de código.
+  - Refatore o código, garantindo que esteja limpo, bem estruturado e de fácil manutenção.
+  - Aplique boas práticas de desenvolvimento e padrões de código.
 
 - [ ] **Corrigir bugs**:
 
