@@ -52,7 +52,7 @@ Você deve completar as seguintes tarefas:
 
 - Faça um download .zip deste repositório público.
 - Crie um repositório seu **privado** e suba um commit inicial com o conteúdo do .zip.
-- Deixe a main com esse estado inicial e cria uma branch separada para realizar suas mudanças.
+- Deixe a main com esse estado inicial e crie uma branch separada para realizar suas mudanças.
 - Ao final, crie um Pull Request (PR) dessa sua branch para a main.
 - Adicione estes dois colaboradores no seu repositório privado: @FernandoTancini e @GuilhermeAlbert.
 - Pronto, assim conseguiremos revisar sua entrega!
