@@ -32,8 +32,8 @@ Você deve completar as seguintes tarefas:
 - [ ] **Implementar funcionalidade de notificações**:
 
   - Implemente uma funcionalidade de envio de notificações em tempo real.
-  - O envio deve ser realizado via endpoint de API.
-  - A notificação deve ser exibida instantaneamente no dropdown do ícone no **frontend**.
+  - O disparo da notificação deve ser acionado via endpoint da API do backend (disparado pelo postman, por exemplo).
+  - A notificação deve ser recebida e exibida instantaneamente no **frontend**, no dropdown do ícone de notificações.
 
 - [ ] **Adicionar um novo campo no envio de postagens**:
 
