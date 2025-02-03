@@ -41,14 +41,14 @@ Você deve completar as seguintes tarefas:
 
 ## Dicas
 
-**Você ganha ponto se:**
+### **Você ganha ponto se:**
 
 - Seu código está limpo e bem estruturado, com padrões consistentes e de fácil leitura.
 - As novas funcionalidades foram feitas e estão funcionando conforme descrito.
 - Bugs encontrados foram resolvidos adequadamente.
 - Soluções criativas para os problemas foram apresentadas.
 
-**Sobre a avaliação:**
+### **Sobre a avaliação:**
 
 Ao receber a sua entrega, iremos avaliar o que está implementado, mas também seus comentários (em código ou na descrição do PR). Use esse espaço para realizar considerações pertinentes.
 
@@ -56,7 +56,7 @@ Por exemplo, se você deixar algo de má qualidade no código e não comentar so
 
 Porém, vale ressaltar que entre realizar a implementação ideal ou apenas comentá-la, a primeira opção é a que garante a melhor avaliação. 😉
 
-**Submissão do projeto**
+### **Submissão do projeto**
 
 - Faça um download .zip deste repositório público.
 - Crie um repositório seu **privado** e suba um commit inicial com o conteúdo do .zip.
