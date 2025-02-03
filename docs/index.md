@@ -52,9 +52,9 @@ Você deve completar as seguintes tarefas:
 
 Ao receber a sua entrega, iremos avaliar o que está implementado, mas também seus comentários (em código ou na descrição do PR). Use esse espaço para realizar considerações pertinentes.
 
-Por exemplo, se você deixar algo de má qualidade no código e não comentar sobre isso, vamos assumir que você não identifica aquilo como um problema. Ou seja, se você deixar algo no código que você não goste mas não teve tempo de mexer ou fazer diferente, vale deixar isso por escrito. Assim, conseguiremos ter um entendimento maior sobre como você enxerga este assunto.
+Por exemplo, se você deixar algo de má qualidade no código e não comentar sobre isso, vamos assumir que você não identifica aquilo como um problema. Ou seja, se você deixar algo no código que você não goste mas não teve tempo de mexer ou fazer diferente, vale registrar isso por escrito. Assim, conseguiremos ter um entendimento maior sobre como você enxerga esse determinado assunto.
 
-Porém, vale ressaltar que entre realizar a implementação ideal ou apenas comentá-la, a primeira opção é a que garante a melhor avaliação. 😉
+Porém, vale ressaltar que, entre realizar a implementação ideal ou apenas comentá-la, a primeira opção é a que garante a melhor avaliação. 😉
 
 ### **Submissão do projeto**
 
