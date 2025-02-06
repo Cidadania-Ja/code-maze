@@ -8,7 +8,7 @@ Como está o projeto?
 
 O projeto frontend foi construído com **[Next.js](https://nextjs.org/)**, **[React Query](https://tanstack.com/query/latest)** e **[TailwindCSS](https://tailwindcss.com/)**.
 
-- A aplicação possui uma **tela principal com uma lista de posts**, que utiliza o [JSONPlaceholder](https://jsonplaceholder.typicode.com/) como fonte de dados fictícios para facilitar o desenvolvimento e manter o escopo do projeto mais gerenciável. Você pode explorar as rotas para entender melhor como integrá-las.
+A aplicação possui uma **tela principal com uma lista de posts**, que utiliza o backend como fonte de dados. Além disso, também há uma área de criação e edição de posts.
 
 ### Backend
 
@@ -52,7 +52,7 @@ Você deve completar as seguintes tarefas:
 
 - Você é responsável pela Qualidade de Software de tudo que estiver dentro das pastas backend/src e frontend/app.
 - Avaliaremos a qualidade do código do projeto, assim como o funcionamento dos requisitos passados.
-- Sinta-se à vontade para registrar considerações por esctrito na descrição do PR aberto por você.
+- Sinta-se à vontade para registrar considerações por escrito na descrição do PR aberto por você.
 
 ### **Submissão do projeto**
 
@@ -65,7 +65,7 @@ Você deve completar as seguintes tarefas:
 
 ### **Sobre permissões e boa fé**
 
-- Você pode instalar novas dependências aos projetos, via yarn.
+- Você pode instalar novas dependências nos projetos, via yarn.
 - Você pode pesquisar na internet ou utilizar AI, como no dia-a-dia de um programador.
 - ⚠️ Lembre-se: esta é uma etapa assíncrona para avaliar **suas habilidades** e você será desclassificado se, posteriormente, identificarmos que não possui domínio sobre a sua entrega feita nesta etapa.
 
