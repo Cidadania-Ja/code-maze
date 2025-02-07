@@ -7,8 +7,8 @@ Siga os seguintes passos para realizar sua entrega.
 1. Faça um download .zip deste repositório público, clicando **[aqui](https://github.com/Cidadania-Ja/code-maze/archive/refs/heads/main.zip)**.
 2. Crie um repositório seu **privado** e suba um commit inicial com o conteúdo do .zip.
 3. Deixe a main com esse estado inicial e crie uma branch separada para realizar suas mudanças.
-4. Ao final, crie um Pull Request (PR) dessa sua branch para a main.
-5. Adicione estes dois colaboradores no seu repositório privado: @FernandoTancini e @GuilhermeAlbert.
+4. Ao final, crie um **Pull Request (PR)** dessa sua branch para a main.
+5. Adicione estes dois colaboradores no seu repositório privado: **@FernandoTancini** e **@GuilhermeAlbert**.
 
 Pronto, assim conseguiremos revisar sua entrega!
 
@@ -18,7 +18,7 @@ Pronto, assim conseguiremos revisar sua entrega!
 
 O projeto frontend foi construído com **[Next.js](https://nextjs.org/)**, **[React Query](https://tanstack.com/query/latest)** e **[TailwindCSS](https://tailwindcss.com/)**.
 
-A aplicação possui uma **tela principal com uma lista de posts**, que utiliza o backend como fonte de dados. Além disso, também há uma área de criação e edição de posts.
+A aplicação possui uma **tela principal com uma lista de posts**, que utiliza o backend como fonte de dados. Além disso, também há uma **área de criação e edição de posts**.
 
 ### Backend
 
