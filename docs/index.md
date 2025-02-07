@@ -44,20 +44,20 @@ Você deve completar as seguintes tarefas:
 
 ## Dicas
 
-### **Você ganha ponto se**
+### **Você ganha ponto se:**
 
 - Seu código está limpo e bem estruturado, com padrões consistentes e de fácil leitura.
 - As novas funcionalidades foram feitas e estão funcionando conforme descrito.
 - Bugs encontrados foram resolvidos adequadamente.
 - Soluções criativas para os problemas foram apresentadas.
 
-### **Sobre a avaliação**
+### **Sobre a avaliação:**
 
 - Você é responsável pela Qualidade de Software de tudo que estiver dentro das pastas backend/src e frontend/app.
 - Avaliaremos a qualidade do código do projeto, assim como o funcionamento dos requisitos passados.
 - Sinta-se à vontade para registrar considerações por escrito na descrição do PR aberto por você.
 
-### **Sobre permissões e boa fé**
+### **Sobre permissões e boa fé:**
 
 - Você pode instalar novas dependências nos projetos, via yarn.
 - Você pode pesquisar na internet ou utilizar AI, como no dia-a-dia de um programador.
